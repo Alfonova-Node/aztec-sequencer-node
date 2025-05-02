@@ -42,11 +42,11 @@ command -v curl >/dev/null 2>&1 || apt-get update && apt-get install -y curl; co
 - Execute either of the following commands to run your Aztec node
 
 ```
-[ -f "aztec.sh" ] && rm aztec.sh; curl -sSL -o aztec.sh https://raw.githubusercontent.com/zunxbt/aztec-sequencer-node/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
+[ -f "aztec.sh" ] && rm aztec.sh; curl -sSL -o aztec.sh https://raw.githubusercontent.com/Alfonova-Node/aztec-sequencer-node/refs/heads/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
 ```
 or
 ```
-[ -f "aztec.sh" ] && rm aztec.sh; wget -q -O aztec.sh https://raw.githubusercontent.com/zunxbt/aztec-sequencer-node/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
+[ -f "aztec.sh" ] && rm aztec.sh; wget -q -O aztec.sh https://raw.githubusercontent.com/Alfonova-Node/aztec-sequencer-node/refs/heads/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
 ```
 ## ⚡Commands
 - You can use this command to check logs of your node
